@@ -9,11 +9,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-public class ExerciseController1 {
+public class MealControllerName {
 
     private List<Meal> meals;
 
-    public ExerciseController1() {
+    public MealControllerName() {
         meals = new ArrayList<>();
         meals.add(new Meal("Pancakes", 9.99, 8.5, "Pancakes with M"));
         meals.add(new Meal("Sandwich", 6.99, 6.5, "BLT Sandwich"));

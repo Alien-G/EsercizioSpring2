@@ -1,6 +1,6 @@
-package Controller;
+package com.example.demo.Controller;
 
-import Service.Meal;
+import com.example.demo.Service.Meal;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 

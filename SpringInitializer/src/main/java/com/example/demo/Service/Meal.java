@@ -1,4 +1,4 @@
-package Service;
+package com.example.demo.Service;
 
 public class Meal {
 private String name;

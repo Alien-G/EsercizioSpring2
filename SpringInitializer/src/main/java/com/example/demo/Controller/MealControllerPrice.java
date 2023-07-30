@@ -10,9 +10,7 @@ import java.util.List;
 
 @RestController
 public class MealControllerPrice {
-
     private List<Meal> meals;
-
     public MealControllerPrice() {
         meals = new ArrayList<>();
         meals.add(new Meal("Pancakes", 9.99, 8.5, "Pancakes with Maple Syrup"));
